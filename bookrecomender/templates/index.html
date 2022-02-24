@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book recomender</title>
+</head>
+<body>
+    <h1>Book Recomendation Engine</h1>
+
+    <p>Books are a great company to be with they let you come across experiences in a form of stories they keep you a step ahead of your competition</p>
+    <p>Some make sure that you are your own competition.</p>
+
+<div class = "form">
+    <form action="/submit"method="POST" >
+        <label> Select Genre </label>
+    <select id="operation" name="operation">
+        <option value = "comic"> Comic
+        </option>
+        <option value = "signalprocessing"> SignalProcessing
+        </option>
+        <option value = "datascience"> DataScience
+        </option>
+        <option value = "mathematics"> Mathematics
+        </option>
+        <option value="economics">Economics
+        </option>
+        <option value="history">History
+        </option>
+        <option value="science">Science
+        </option>
+        <option value="psychology">Psychology
+        </option>
+        <option value="fiction">Fiction
+        </option>
+        <option value="computerscience">ComputerScience
+        </option>
+        <option value="nonfiction">NonFiction
+        </option>
+        <option value="philosophy">Philosophy
+        </option>
+    </select>
+        <input type="number" name="books_count" placeholder="How many?">
+        <button type ="submit">submit</button>
+
+     <h4> This Recommendation Engine uses similarity matrix from sklearn directory to find imilar books.</h4>
+
+    </form>
+
+
+</div>
+</body>
+</html>
