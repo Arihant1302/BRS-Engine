@@ -23,7 +23,6 @@ def contents_based_recommender(n,m):
     sim_matrix = linear_kernel(tfidf_matrix, tfidf_matrix)
     title_index = get_title_index_from_genre(n)
     books_list = list(enumerate(sim_matrix[int(title_index)]))
-        # remove the typed movie itself
     similar_books = list(filter(lambda x:x[0] != int(title_index), sorted(books_list,key=lambda x:x[1], reverse=True)))
     for i,s in similar_books[:m]:
         results_list.append(get_title_from_genre_index(i))
