@@ -20,7 +20,7 @@
 --------------------------
 ## ⚒️ Requirements.
 + Python 3.5+
-+ Heroku cli
++ Render
 --------------------------
 # 📌Setup
 1.Install Pandas
@@ -33,7 +33,7 @@
 <pre><code>pip install flask </pre></code>
 ------------------------------
 # Deployment Link.
-+ https://brs-engine.herokuapp.com/
++ https://flask-brs.onrender.com/
 -----------------------------------------------
 # 📑Please go through HLD doccument for further information.
 + https://docs.google.com/document/d/1YQrm4DeBbr4sU9UgN7H4TiI1dDCcn3V4Rmchci-8Tw8/edit?usp=sharing
